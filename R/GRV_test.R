@@ -153,6 +153,7 @@
 #' @references
 #' Minas C., Curry E., and Montana G., A distance-based test of association between paired heterogeneous genomic data, Bioinformatics, 2013.
 #'
+#' @rdname GRV.test
 #' @export
 "GRV.test" <- function(DX,DY) 
 {
