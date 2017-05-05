@@ -1,0 +1,23 @@
+Package: GRV
+Title: The Generalised RV (GRV) Test
+Version: 0.1.0
+Authors@R: c(
+  person("Henrik", "Bengtsson", role=c("aut", "cre"),
+         email = "henrikb@braju.com"),
+  person("Christopher", "Minas", role=c("aut")),
+  person("Giovanni", "Montana", role=c("aut")))
+Description: The Generalised RV (GRV) test statistic allows to compare two paired distance matrices.  This a packaged version of Minas' R script available via URL: https://wwwf.imperial.ac.uk/~gmontana/grv.html on 2017-02-05.
+Depends: R (>= 3.4.0)
+Imports:
+    stats
+Suggests:
+    MASS,
+    graphics,
+    Matrix,
+    combinat,
+    ecodist,
+    gplots
+License: LGPL (>= 2.1)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
